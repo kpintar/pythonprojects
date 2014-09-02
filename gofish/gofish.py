@@ -201,6 +201,7 @@ class GoFish:
 # Main
 if __name__ == '__main__':
     '''Plays a Go Fish with the players passed as arguments'''
+    #ToDo - add interactive mode
     players = []
     count = 0
     for p in sys.argv[1:]:
